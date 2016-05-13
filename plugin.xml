@@ -5,7 +5,7 @@
     id="com.WISEMEN.compress"
     version="0.0.1">
     
-    <name>compress</name>
+    <name>custom camera</name>
     <description>PhoneGap plugin to support a custom camera overlay</description>
     <author>Vote 539 and others</author>
     
@@ -15,7 +15,7 @@
     </info>
     
     <js-module src="www/js/compress.js" name="compress">
-        <clobbers target="compress" />
+        <clobbers target="window.compress" />
     </js-module>
     
     <engines>

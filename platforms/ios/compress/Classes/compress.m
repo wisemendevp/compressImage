@@ -23,7 +23,7 @@
     
     NSURL *url = [NSURL URLWithString:options];
     NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *image = [[[UIImage alloc] initWithData:data]autorelease];
+    UIImage *image = [[UIImage alloc] initWithData:data];
      NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     
     NSString* string = [self generateRandomString:5];
@@ -64,9 +64,5 @@
 }
 
 
-- (void) dealloc
-{
-    [callbackId release];
-    [super dealloc];
-}
+
 @end

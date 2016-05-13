@@ -15,7 +15,7 @@
     </info>
     
     <js-module src="www/js/compress.js" name="compress">
-        <clobbers target="window.Compress" />
+        <clobbers target="compress" />
     </js-module>
     
     <engines>

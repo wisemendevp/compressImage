@@ -6,5 +6,6 @@ compress: function(success, failure,resultType){
 }
 };
 
+module.exports=compress;
 
 
